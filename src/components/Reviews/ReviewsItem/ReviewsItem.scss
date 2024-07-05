@@ -1,0 +1,51 @@
+.reviews {
+
+    &__list-item {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        border-radius: 20px;
+        padding: 16px 20px;
+        backdrop-filter: blur(30px);
+        background: var(--dark-grey-34);
+        max-width: 400px;
+        width: 100%;
+        &:nth-child(odd) {
+            margin-left: 112px;
+           
+        }
+        @media(max-width: 1600px) {
+            max-width: 288px;
+        }
+        
+
+    }
+
+    &__list-person {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    &__list-personInfo {
+        h2 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 133%;
+            text-transform: uppercase;
+            color: var(--white-100);
+        }
+        span {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 125%;
+            color: var(--white-40);
+        }
+    }
+
+    &__list-text {
+        font-size: 18px;
+        line-height: 115%;
+        color: var(--white-100);
+    }
+}
