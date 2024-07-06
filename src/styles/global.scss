@@ -27,9 +27,9 @@ body {
     }
 
     position: relative;
-    background-image: url('./Litecoin.svg');
+    background-image: url('aria-test/Litecoin.svg');
     @media(max-width: 425px) {
-        background-image: url('./Litecoin-small.svg');
+        background-image: url('aria-test/Litecoin-small.svg');
     }
     background-position: 80%;
     @media(max-width: 1600px) {
@@ -45,8 +45,7 @@ body {
         position: absolute;
         top: 15px;
         right: 14%;
-       
-        background-image: url('./Bitcoin.svg');
+        background-image: url('aria-test/Bitcoin.svg');
         background-repeat: no-repeat;
         max-width: 276px;
         width: 100%;
@@ -58,7 +57,7 @@ body {
         @media(max-width: 425px) {
             top: 47px;
         right: -34%;
-            background-image: url('./Bitcoin-small.svg');
+            background-image: url('aria-test/Bitcoin-small.svg');
         }
     }
     &::before {
@@ -66,7 +65,7 @@ body {
         position: absolute;
         bottom: 77px;
         right:  14%;
-        background-image: url('./Ethereum.svg');
+        background-image: url('aria-test/Ethereum.svg');
         background-repeat: no-repeat;
         max-width: 272px;
         width: 100%;
@@ -76,7 +75,7 @@ body {
             right: 0;
         }
         @media(max-width: 425px) {
-            background-image: url('./Ethereum-small.svg');
+            background-image: url('aria-test/Ethereum-small.svg');
             bottom: 167px;
             right: -35%;
         }

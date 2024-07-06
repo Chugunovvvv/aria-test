@@ -1,6 +1,5 @@
 .app {
-
-    &__list-item {
+    &__list-link {
         display: flex;
         gap: 10px;
         align-items: center;
@@ -9,9 +8,7 @@
         backdrop-filter: blur(28px);
         background: var(--dark-grey-34);
         min-width: 132px;
-       
     }
-
     &__list-info {
         display: flex;
         flex-direction: column;

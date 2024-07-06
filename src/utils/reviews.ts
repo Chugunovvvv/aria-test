@@ -11,7 +11,7 @@ interface IReviews {
 export const reviews:IReviews[] = [
     {
         id: 1,
-        img: './Reviews/lorenzo.svg',
+        img: 'aria-test/Reviews/lorenzo.svg',
         alt: 'Lorenzo',
         name: 'Lorenzo',
         tag: '@lorenzoo',
@@ -19,7 +19,7 @@ export const reviews:IReviews[] = [
     },
     {
         id: 2,
-        img: './Reviews/adalina.svg',
+        img: 'aria-test/Reviews/adalina.svg',
         alt: 'Adalina',
         name: 'Adalina',
         tag: '@ada',
@@ -27,14 +27,14 @@ export const reviews:IReviews[] = [
     },
     {
         id: 3,
-        img: './Reviews/alexander.svg',
+        img: 'aria-test/Reviews/alexander.svg',
         alt: 'Alexander',
         name: 'Alexander',
         tag: '@alex_x',
         review: 'Superb cryptocurrency bot! Quick updates and reliable data'
     }, {
         id: 4,
-        img: './Reviews/rushana.svg',
+        img: 'aria-test/Reviews/rushana.svg',
         alt: 'Rushana',
         name: 'Rushana',
         tag: '@Hana',
